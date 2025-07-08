@@ -19,7 +19,6 @@ public class GemManager : MonoBehaviour
         matchfinder = FindObjectOfType<MatchFinder>();
         boardManager = FindObjectOfType<Board>();
         gem = FindObjectOfType<Gem>();
-
     }
 
     public void GemClicked(Gem gem)
