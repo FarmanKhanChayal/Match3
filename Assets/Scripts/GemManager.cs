@@ -86,8 +86,6 @@ public class GemManager : MonoBehaviour
 
         MatchFinder.Instance.FindGemMatch();
 
-
-
         if (!gem2.IsMatched && !gem1.IsMatched)
         {
             GemAnimation(gem1, gem2);
@@ -109,9 +107,6 @@ public class GemManager : MonoBehaviour
 
             StartCoroutine(ReArrangeGems());
         }
-
-        
-
     }
 
     private void GemAnimation(Gem gem1,Gem gem2)
@@ -154,8 +149,4 @@ public class GemManager : MonoBehaviour
             }
         }
     }
-
-
-
-
 }
